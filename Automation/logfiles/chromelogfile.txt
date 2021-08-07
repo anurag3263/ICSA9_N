@@ -1,0 +1,191 @@
+[1608733471.111][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 48323
+[1608733471.111][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1608733472.238][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1608733472.244][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1608733472.282][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1608733472.286][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Anurag\AppData\Local\Temp\scoped_dir2456_430209720" data:,
+[1608733473.941][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1608733474.962][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "C:\\Users\\Anurag\\AppData\\Local\\Temp\\scoped_dir2456_430209720"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53205"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "11521b472485abdd94d2a17bfa5257f8"
+}
+[1608733475.634][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND Navigate {
+   "url": "https://demo.actitime.com/login.do"
+}
+[1608733475.634][INFO]: Waiting for pending navigations...
+[1608733475.638][INFO]: Done waiting for pending navigations. Status: ok
+[1608733482.375][INFO]: Waiting for pending navigations...
+[1608733497.107][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.107][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE Navigate
+[1608733497.167][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#username"
+}
+[1608733497.167][INFO]: Waiting for pending navigations...
+[1608733497.169][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.215][INFO]: Waiting for pending navigations...
+[1608733497.217][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.217][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9d472e72-c4b5-447f-95f6-05c371aece5c"
+}
+[1608733497.254][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND TypeElement {
+   "id": "9d472e72-c4b5-447f-95f6-05c371aece5c",
+   "text": "admin",
+   "value": [ "a", "d", "m", "i", "n" ]
+}
+[1608733497.255][INFO]: Waiting for pending navigations...
+[1608733497.257][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.356][INFO]: Waiting for pending navigations...
+[1608733497.364][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.364][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE TypeElement
+[1608733497.377][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='pwd']"
+}
+[1608733497.377][INFO]: Waiting for pending navigations...
+[1608733497.378][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.410][INFO]: Waiting for pending navigations...
+[1608733497.411][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.411][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3ab12827-9f23-413f-a0ef-2694b498bcc6"
+}
+[1608733497.419][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND TypeElement {
+   "id": "3ab12827-9f23-413f-a0ef-2694b498bcc6",
+   "text": "manager",
+   "value": [ "m", "a", "n", "a", "g", "e", "r" ]
+}
+[1608733497.419][INFO]: Waiting for pending navigations...
+[1608733497.421][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.694][INFO]: Waiting for pending navigations...
+[1608733497.698][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.698][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE TypeElement
+[1608733497.707][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#loginButton"
+}
+[1608733497.707][INFO]: Waiting for pending navigations...
+[1608733497.708][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.767][INFO]: Waiting for pending navigations...
+[1608733497.778][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.778][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "10918623-16e9-4145-9fc9-58e2fac46eee"
+}
+[1608733497.810][INFO]: [11521b472485abdd94d2a17bfa5257f8] COMMAND ClickElement {
+   "id": "10918623-16e9-4145-9fc9-58e2fac46eee"
+}
+[1608733497.811][INFO]: Waiting for pending navigations...
+[1608733497.812][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.934][INFO]: Waiting for pending navigations...
+[1608733497.944][INFO]: Done waiting for pending navigations. Status: ok
+[1608733497.944][INFO]: [11521b472485abdd94d2a17bfa5257f8] RESPONSE ClickElement
